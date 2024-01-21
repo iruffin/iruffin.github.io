@@ -152,12 +152,16 @@ main p{
 
 }
 
-#name{
+#name, #about{
     font-family: 'Courier New', Courier, monospace;
 }
 
 #hello{
+    font-family: 'Courier New', Courier, monospace;
     color: white;
+    font-weight: bolder;
+    font-size:5vh;
+    text-decoration: underline;
 }
 
 #artwork{
@@ -196,14 +200,31 @@ main p{
     
 }
 
-#port_bot_text{
-    color: white;
-}
 
 #insta_link{
     text-align: center;
     color: white;
     justify-content: center;
     text-decoration:underline;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
 }
 
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.row a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#insta{
+   width: 6vh;
+   height: 10vh;
+   position: relative;
+   left: 1vh;
+}
