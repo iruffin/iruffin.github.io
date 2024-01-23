@@ -76,7 +76,7 @@ p{
 a{
     font-family: Rampart;
     color: white;
-    display: flex;
+    
     font-size: 200%;
     text-align: center;
 }
@@ -238,8 +238,10 @@ main p{
 }
 
 .image-item {
-    margin: 10px;
-    cursor: pointer;
+    margin: 1vh;
+    margin-left: 16vh;
+    padding: 10%;
+    /*cursor: pointer;*/
 }
 
 .pic_link{
