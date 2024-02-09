@@ -21,7 +21,7 @@ function redirectToAboutPage() {
 
 function redirectToWorkPage() {
     // Change 'linked_page.html' to the actual filename or URL of your linked page
-    window.location.href = 'work.html';
+    window.location.href = 'portfolio.html';
 }
 
 function redirectToHomePage() {
