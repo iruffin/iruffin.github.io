@@ -1,3 +1,5 @@
+import React from "react";
+
 function $(x){
     return document.getElementById(x);
 }
@@ -29,4 +31,5 @@ function redirectToHomePage() {
     window.location.href = 'home.html';
 }
 
+React
 
