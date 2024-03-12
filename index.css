@@ -277,10 +277,7 @@ main h2{
     content: "";
     display: block;
   }
-  .site-footer, .page-wrap:after {
-    /* .push must be the same height as footer */
-      
-  }
+
   .site-footer {
     background: navy;
   }
@@ -346,7 +343,8 @@ main h2{
   .first_div{
     background-color: navy;
     height:45vh;
-    margin: 1vh;
+    margin: 5vh;
+    margin-top: 10vh;
   }
   
   .first_div img{
@@ -355,4 +353,10 @@ main h2{
     height: 100%;
     bottom: 15%;
     left: 5%;
+    padding: 2vh;
   }
+
+  .fade-in {
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+    }

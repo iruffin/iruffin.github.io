@@ -1,4 +1,5 @@
-import React from "react";
+
+
 
 function $(x){
     return document.getElementById(x);
@@ -10,11 +11,10 @@ document.addEventListener("DOMContentLoaded", function () {
     // This function will be executed when the DOM is fully loaded
    
     console.log("heylo");
-
+     // Function to handle the intersection changes
   
 });
 
-//redirection to different page functions
 
 function redirectToAboutPage() {
     // Change 'linked_page.html' to the actual filename or URL of your linked page
@@ -31,5 +31,5 @@ function redirectToHomePage() {
     window.location.href = 'home.html';
 }
 
-React
+
 

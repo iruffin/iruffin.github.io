@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome",
+            "url": "http://127.0.0.1:5500/iruffin.github.io/index.html", 
+            "webRoot": "iruffin.github.io",
+           
+        },{"name":"Launch",
+            "program": "${workspaceRoot}/iruffin.github.io/code.js",
+            "cwd":"${workspaceRoot}/iruffin.github.io",
+            "type":"node",
+            "request":"launch"
+        }
+    ]
+}
