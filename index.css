@@ -152,7 +152,7 @@ main p{
 
 }
 
-#name, #about{
+#name{
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -244,3 +244,36 @@ main p{
     /*cursor: pointer;*/
 }
 
+html, body {
+    height: 100%;
+    min-height: 100%;
+  }
+  
+  .page-wrap {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: 1vh; 
+  }
+  .page-wrap:after {
+    content: "";
+    display: block;
+  }
+
+  .site-footer {
+    background: navy;
+  }
+
+  #pics{
+    padding: 6%;
+    
+  }
+
+  .card-text{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4vh;
+  }
+
+  #about{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+  }
