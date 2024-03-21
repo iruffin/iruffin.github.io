@@ -29,7 +29,7 @@ header {
 }
 
 nav {
-    background-color: navy;
+    background-color: rgb(15, 15, 78);
     padding: 0.5em;
     width: 100%;
 }
@@ -63,7 +63,7 @@ h2{
     font-family: Rampart;
     text-align: center;
     color: white;
-    background-color: navy;
+    background-color:  rgb(15, 15, 78);
 }
 
 p{
@@ -91,6 +91,7 @@ a{
 
 main p{
     color: white;
+    font-size: 12vh;
 }
 
 .card-body h2{
@@ -101,7 +102,7 @@ main p{
     width: 50%;
     position: relative;
     left: 25%;
-    background-color: navy;
+    background-color: rgb(15, 15, 78);
     font-family: Rampart;
     bottom: 1%;
 }
@@ -118,10 +119,11 @@ main p{
 .container {
     display: flex;
     align-items: center;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     overflow: hidden;
     flex-direction: column;
     justify-content: center;
+    border-radius: 10vh;
 }
 
 .container img{
@@ -131,11 +133,12 @@ main p{
 
 .container p{
     font-weight: bold;
-    font-family: Rampart;
+
     position: relative;
-    bottom: 30%;
+    
     text-align: center;
     font-size: larger;
+    color: black;
 }
 
 .container header p{
@@ -162,6 +165,7 @@ main p{
     font-weight: bolder;
     font-size:5vh;
     text-decoration: underline;
+    background-color: rgb(15, 15, 78);
 }
 
 #artwork{
@@ -214,8 +218,8 @@ main p{
 .row {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
-    border: 1px solid #ccc;
+    padding: 1vh;
+    
 }
 
 .row a {
@@ -276,4 +280,6 @@ html, body {
   #about{
     font-family: 'Courier New', Courier, monospace;
     font-weight: 100;
+    width: 200vh;
+    color: black;
   }
