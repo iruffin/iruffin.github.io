@@ -123,7 +123,7 @@ main p{
     overflow: hidden;
     flex-direction: column;
     justify-content: center;
-    border-radius: 10vh;
+    border-radius: 5vh;
 }
 
 .container img{
