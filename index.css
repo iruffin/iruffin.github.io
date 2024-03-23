@@ -256,8 +256,15 @@ html, body {
   .page-wrap {
     min-height: 100%;
     /* equal to footer height */
-    margin-bottom: 1vh; 
+     
   }
+
+  .page-wrap2{
+    margin-bottom: 30vh;
+    margin-right: 5vh;
+    margin-left: 5vh;
+  }
+
   .page-wrap:after {
     content: "";
     display: block;
