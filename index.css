@@ -29,7 +29,7 @@ header {
     padding: 1em;
 }
 
-@media only screen and (min-width: 50vh) {
+@media only screen and (min-width: 21vh) {
     /* Styles for screens smaller than 768px */
     footer{
         overflow-x: hidden;
