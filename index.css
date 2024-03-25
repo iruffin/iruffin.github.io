@@ -20,6 +20,7 @@ body {
     justify-content: center;
     text-align: center;
     overflow-x: hidden;
+    width: 100%;
 }
 
 header {
@@ -32,6 +33,10 @@ nav {
     background-color: rgb(15, 15, 78);
     padding: 0.5em;
     width: 100%;
+}
+
+#navvie{
+    padding: 1vh;
 }
 
 nav ul {
