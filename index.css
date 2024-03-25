@@ -19,7 +19,7 @@ body {
     position: relative;
     justify-content: center;
     text-align: center;
-    overflow-x: hidden;
+    overflow-x:hidden;
     width: 100%;
 }
 
@@ -27,6 +27,19 @@ header {
     color: #fff;
     text-align: center;
     padding: 1em;
+}
+
+@media only screen and (max-width: 100vh) {
+    /* Styles for screens smaller than 768px */
+    footer{
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    #navvie{
+        overflow-x: hidden;
+        width: 100%;
+    }
 }
 
 nav {
