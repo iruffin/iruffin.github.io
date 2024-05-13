@@ -1,3 +1,7 @@
+var root = document.querySelector(':root');
+    var rootstyles = getComputedStyle(root);
+    root.style.setProperty('--bs-nav-pills-link-active-bg', 'red');
+
 function $(x){
     return document.getElementById(x);
 }
@@ -8,8 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // This function will be executed when the DOM is fully loaded
    
     console.log("heylo");
-
-  
+    
 });
 
 //redirection to different page functions
